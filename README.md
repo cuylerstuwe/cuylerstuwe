@@ -6,6 +6,8 @@ I wrote [Titanic 4.1](https://github.com/cuylerstuwe/titanic-flash-41) from scra
 
 I wrote [GLM 5.3 Flash Rust](https://github.com/cuylerstuwe/glm-53-flash-rust) from scratch (again, in Rust) as a balanced quality/speed inference stack, skewing toward quality, for 4x DGX Sparks.
 
+Currently working on other experiments as well (at the time of this writing, exploring how best to leverage an RTX 5090 in a Thunderbolt 5 eGPU to accelerate Qwen 3.8 Flash Next on a 128GB M5 Max MacBook Pro).
+
 <!--
 **cuylerstuwe/cuylerstuwe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
