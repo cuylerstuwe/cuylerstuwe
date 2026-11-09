@@ -7,7 +7,7 @@ In my time outside of work, I'm building local AI inference stacks.
 
 * I wrote [Titanic 4.1](https://github.com/cuylerstuwe/titanic-flash-41) from scratch in Rust. As of the time of this writing, this is the fastest single-stream inference stack for DeepSeek V4.1 Flash's native weights across 4x DGX Sparks.
 
-* I wrote [GLM 5.3 Flash Rust](https://github.com/cuylerstuwe/glm-53-flash-rust) from scratch (again, in Rust) as a balanced quality/speed inference stack, skewing toward quality, for 4x DGX Sparks.
+* I wrote [GLM 5.3 Flash Rust](https://github.com/cuylerstuwe/glm-53-flash-rust) from scratch (again, in Rust). This is a balanced quality/speed inference stack (skewing toward quality) for 4x DGX Sparks.
 
 * I have some forks of some other serving stacks:
     * [Quinlan](https://github.com/cuylerstuwe/quinlan) is my fork of [Quentin](https://github.com/kacper-daftcode/qwentin). This is the highest-quality runtime for Qwen 3.8 27B that fits a full context window on a single RTX 5090. My fork adds vision support and other tweaks.
