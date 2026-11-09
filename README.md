@@ -11,7 +11,7 @@ In my time outside of work, I'm building local AI inference stacks.
 
 * I have some forks of some other serving stacks:
     * [Quinlan](https://github.com/cuylerstuwe/quinlan) is my fork of [Quentin](https://github.com/kacper-daftcode/qwentin). This is the highest-quality runtime for Qwen 3.8 27B that fits a full context window on a single RTX 5090. My fork adds vision support and other tweaks.
-    * Currently working on a fork of [Sushi](https://github.com/beamivalice/sushi) to leverage an RTX 5090 in a Thunderbolt 5 eGPU to accelerate Qwen 3.8 Flash Next on a 128GB M5 Max MacBook Pro).
+    * [Texas Split Qwen 3.8 Flash](https://github.com/cuylerstuwe/texas-split-qwen-38-flash) is my model-specific fork of [Sushi](https://github.com/beamivalice/sushi). It adds support for using an RTX 5090 in a Thunderbolt 5 eGPU to accelerate Qwen 3.8 Flash Next on a 128GB M5 Max MacBook Pro by approximately 30%.
 
 <!--
 **cuylerstuwe/cuylerstuwe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
